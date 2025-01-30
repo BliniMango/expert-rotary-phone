@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000000;
+    color: #FF6B00;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles maintained from previous page */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.brand {
+    font-size: 1.2rem;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #FF6B00;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+/* Terms of Service specific styles */
+.terms-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.terms-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.terms-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #FF6B00;
+    margin: 20px 0;
+    opacity: 0.3;
+}
+
+.biohazard-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.biohazard-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.effective-date {
+    margin: 30px 0;
+    font-size: 1.1rem;
+}
+
+.terms-section {
+    margin-bottom: 30px;
+}
+
+.terms-section-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.terms-content {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Improved readability for legal text */
+.terms-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
