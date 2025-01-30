@@ -105,3 +105,29 @@ body {
     line-height: 1.8;
     font-size: 1.1rem;
 }
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 107, 0, 0.2);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: #FF6B00;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.footer-link:hover {
+    opacity: 1;
+}
