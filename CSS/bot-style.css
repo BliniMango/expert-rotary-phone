@@ -67,7 +67,7 @@ body {
     height: 2px;
     background-color: #FF6B00;
     margin: 20px 0;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .biohazard-container {
@@ -119,15 +119,33 @@ body {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    text-decoration: underline;
 }
 
 .footer-link {
     color: #FF6B00;
     text-decoration: none;
-    font-size: 0.9rem;
-    opacity: 0.8;
+    font-size: 20px;
+
 }
 
 .footer-link:hover {
     opacity: 1;
+}
+
+.copyright {
+    font-size: 15px;             /* Slightly smaller than main content */
+    color: #FF6B00;                /* Matches site's orange theme */
+    opacity: 0.8;                  /* Subtle transparency */
+}
+
+.copyright span {
+    display: block;                /* Stacks copyright lines vertically */
+    margin-bottom: 10px;           /* Space between lines */
+}
+
+.rights-reserved {
+    font-size: 15px;             /* Even smaller text for legal notice */
+    margin-top: 5px;               /* Space above legal text */
+    opacity: 0.8;                  /* More transparent than copyright text */
 }
